@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.ctn {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 6px 6px;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5px;
+
+
+
+}
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/pexels-sushantphotographyy-10212823.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+}
+
+.header-content {
+    text-align: center;
+    font-size: 4vmin;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+
+.slide-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.secondp {
+    margin-left: auto;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.SPEAKERS{
+    padding: 100px 8% 120px;
+}
+
+.HEADPHONES{
+    padding: 100px 8% 120px;
+}
+
+.FIRSTP{
+    font-size: 30PX;
+    font-weight: bolder;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgb(255, 242, 242);
+}
+
+.main-text h3 span {
+    color: rgb(255, 255, 254);
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    text-align: center;
+    gap: 0.90rem;
+    margin-top: 30px;
+}
+
+.card-content .row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.card-body {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.card-body h3 {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 254, 254);
+    text-shadow: 0px 1px 1px rgb(255, 254, 254);
+
+}
+
+.rating i {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.checked {
+    color: rgb(238, 153, 6);
+}
+
+.card-body p {
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+.price {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.card-body button {
+    width: 130px;
+    height: 30px;
+    font-weight: 550;
+    margin-top: 10px;
+    background: rgb(251, 249, 245);
+    color: rgb(14, 3, 3);
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card-body button:hover {
+    width: 150px;
+}
+
+.HEADPHONES{
+    background-color: black;
+}
+
+.SPEAKERS{
+    background-color: black;
+}
+
+.SUPPORT{
+    background-color: black;
+}
+
+#head1{
+
+    text-align: center;
+    color: white;
+    
+}
+
+#head2{
+    text-align: center;
+    color: white;
+    padding: 20PX;
+    font-size: 20px;
+    
+}
+
+
+
+.dropdown{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+   gap: 25px;
+   
+   margin-top: 0px;
+       
+
+  
+    
+}
+
+
+#navbar{
+ background: #060502;
+  }
+  #logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+  }
+  #logo span{
+    color: #0b0904;
+  }
+  .navbar-toggler span{
+    color: #060502;
+  }
+  .navbar-nav{
+    margin-left: 20px;
+  }
+  .nav-item .nav-link{
+    font-size: 26px;
+    font-weight: 550;
+    color: rgb(4, 3, 3);
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    
+  }
+  .nav-item .nav-link:hover{
+    background: #111111;
+    color: white;
+  }
+  #navbar form button{
+    background: rgb(19, 18, 16);
+    color: white;
+    border: none;
+  }
+
+  .lastpage{
+
+    width: 100%;
+    height: 500px;
+    background-color: black;
+  }
+
+
